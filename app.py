@@ -1,7 +1,6 @@
 import os
 import requests
 import random
-import pickle
 from bs4 import BeautifulSoup
 from flask import Flask, request, abort
 from linebot import LineBotApi, WebhookHandler
